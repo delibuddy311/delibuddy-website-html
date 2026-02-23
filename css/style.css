@@ -1,0 +1,73 @@
+
+.navbar {
+    /* Add top and bottom padding to increase height */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #333; /* Example background */
+    color: white;
+    display: flex; /* Helps with alignment */
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Space out logo and links */
+}
+
+.big-banner {
+
+background-image: url('../images/deli-buddy-shop.jpg');
+background-size: 100%;
+
+
+}
+
+.carousel-container {
+  display: flex; /* Aligns items horizontally */
+  overflow-x: scroll; /* Enables horizontal scrolling */
+  scroll-snap-type: x mandatory; /* Ensures items snap into place */
+  width: 100%; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  scroll-behavior: smooth; /* Smooth scrolling when navigating */
+}
+
+.carousel-item1 {
+  flex: 0 0 100%; /* Makes each item take the full width of the container */
+  width: 100%; /* Ensures full width */
+  scroll-snap-align: center; /* Snaps the center of the item to the center of the container */
+  /* Add styling for individual items */
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: url('../images/deli-buddy-shop.jpg');
+  background-color: #f0f0f0; /* Example background */
+  border: 1px solid #ddd;
+}
+
+.carousel-item2 {
+  flex: 0 0 100%; /* Makes each item take the full width of the container */
+  width: 100%; /* Ensures full width */
+  scroll-snap-align: center; /* Snaps the center of the item to the center of the container */
+  /* Add styling for individual items */
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: url('../images/deli-buddy-shop.jpg');
+  background-color: #f0f0f0; /* Example background */
+  border: 1px solid #ddd;
+}
+.carousel-item3 {
+  flex: 0 0 100%; /* Makes each item take the full width of the container */
+  width: 100%; /* Ensures full width */
+  scroll-snap-align: center; /* Snaps the center of the item to the center of the container */
+  /* Add styling for individual items */
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: url('../images/deli-buddy-shop.jpg');
+  background-color: #f0f0f0; /* Example background */
+  border: 1px solid #ddd;
+}
+
+
+/* Optional: Add different colors to see the effect more clearly */
+.carousel-item:nth-child(even) {
+  background-color: #e0e0e0;
+}
